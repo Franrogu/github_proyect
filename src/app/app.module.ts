@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ViewComponent } from './view/view.component';
 import { ConfigComponent } from './config/config.component';
 import { StatusComponent } from './status/status.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StatusComponent } from './status/status.component';
     HomeComponent,
     ViewComponent,
     ConfigComponent,
-    StatusComponent
+    StatusComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
